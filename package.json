@@ -1,0 +1,26 @@
+{
+  "name": "dsh-plugin-model-switcher",
+  "version": "0.1.0",
+  "description": "DSH plugin: keyboard shortcuts to switch models and reasoning effort levels",
+  "license": "MIT",
+  "type": "module",
+  "files": ["src/"],
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client/index.ts"
+  },
+  "dsh": {
+    "plugin": {
+      "host": "./src/index.ts",
+      "client": "./src/client/index.ts"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  },
+  "keywords": ["dsh", "dsh-plugin", "model-switcher", "keyboard-shortcuts"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mrlilili/dsh-plugin-model-switcher"
+  }
+}
