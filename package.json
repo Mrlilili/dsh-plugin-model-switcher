@@ -4,17 +4,24 @@
   "description": "DSH plugin: keyboard shortcuts to switch models and reasoning effort levels",
   "license": "MIT",
   "type": "module",
-  "files": ["src/"],
+  "main": "src/index.js",
   "exports": {
-    ".": "./src/index.ts",
-    "./client": "./src/client/index.ts"
+    ".": "./src/index.js",
+    "./client": "./src/client/index.js",
+    "./package.json": "./package.json"
   },
   "dsh": {
-    "plugin": {
-      "host": "./src/index.ts",
-      "client": "./src/client/index.ts"
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
     }
   },
+  "files": [
+    "src/",
+    "cordis.patch.yml"
+  ],
   "peerDependencies": {
     "@deepseek-ai/cordis": "*"
   },

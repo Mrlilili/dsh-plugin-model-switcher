@@ -1,0 +1,4 @@
+# dsh-plugin-model-switcher bundle patch: one client row over the web profile.
+- insert:
+    - id: model-switcher
+      name: dsh-plugin-model-switcher
