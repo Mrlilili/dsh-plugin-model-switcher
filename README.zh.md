@@ -1,5 +1,7 @@
 # dsh-plugin-model-switcher
 
+[English](README.md) | 中文
+
 DSH 插件：通过键盘快捷键切换模型和推理等级。
 
 ## 快捷键

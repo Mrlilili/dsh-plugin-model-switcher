@@ -1,5 +1,7 @@
 # dsh-plugin-model-switcher
 
+English | [中文](README.zh.md)
+
 DSH plugin for switching models and reasoning effort levels via keyboard shortcuts.
 
 ## Shortcuts
